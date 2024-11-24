@@ -61,7 +61,7 @@
 // }
 // console.log(obj2)
 
-//named exports
+//named exports always curly braces me hoga 
 //named exports curly braces used 
 // import { display } from "./script.js";
 // import { add } from "./script.js";
