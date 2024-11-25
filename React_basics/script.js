@@ -16,3 +16,8 @@ export default subtract;
 export function changeName(){
     console.log("Change name fn of script.js");
 }
+
+
+export function playMusic(){
+    console.log("Play music fn of script.js");
+}

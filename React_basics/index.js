@@ -76,5 +76,8 @@
 // let y=sub(20,10);
 // console.log(y);
 
-import { changeName as updatedChangeName } from "./script.js";
-updatedChangeName();
+// import { changeName as updatedChangeName } from "./script.js";
+// updatedChangeName();
+
+import { playMusic } from "./script";
+playMusic();
