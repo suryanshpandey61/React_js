@@ -14,7 +14,7 @@ const Counter = () => {
         }
     }
 
-    function resetHandler(){
+    function resetFunction(){
         setCount(0);
     }
 
@@ -26,12 +26,12 @@ const Counter = () => {
             </div>
 
             <button onClick={incrementHandler}>
-                Increment
+                +
             </button>
             <button onClick={decrementHandler}>
-                Decrement
+                -
             </button>
-            <button onClick={resetHandler}>
+            <button onClick={resetFunction}>
                 Reset 
             </button>
 
