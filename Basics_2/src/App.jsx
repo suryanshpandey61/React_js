@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar";
 import NavbarCBC from "./components/NavbarCBC";
+import Parent from "./props/Parent";
+import StatesInCBC from "./states/cbc/StatesInCBC";
 import Counter from "./states/fbc/Counter";
 import State from "./states/fbc/State";
 const App = () => {
@@ -7,11 +9,13 @@ const App = () => {
         <div>
             {/* <Navbar/>
             <NavbarCBC/> */}
-            <State/>
+            {/* <State/> */}
             
             <h1>This is App Component</h1>
 
-            <Counter/>
+            {/* <Counter/> */}
+            {/* <StatesInCBC/> */}
+            <Parent/>
         </div>
     )
 }
