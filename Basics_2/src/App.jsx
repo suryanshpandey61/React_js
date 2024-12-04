@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import NavbarCBC from "./components/NavbarCBC";
 import Parent from "./props/Parent";
+import PropsDrillingParent from "./propsdrilling/PropsDrillingParent";
 import StatesInCBC from "./states/cbc/StatesInCBC";
 import Counter from "./states/fbc/Counter";
 import State from "./states/fbc/State";
@@ -15,7 +16,8 @@ const App = () => {
 
             {/* <Counter/> */}
             {/* <StatesInCBC/> */}
-            <Parent/>
+            {/* <Parent/> */}
+            <PropsDrillingParent/>
         </div>
     )
 }
