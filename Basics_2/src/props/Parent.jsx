@@ -1,7 +1,11 @@
+import { useState } from "react";
 import ChildA from "./ChildA";
 import ChildB from "./ChildB";
+import ChildC from "./ChildC";
 
 const Parent = () =>{ 
+
+    const [state,setState] = useState("Data of Parent")
 
     let data="Value is parent Component";
     let dbData=[10,20,30,40];
@@ -17,8 +21,10 @@ const Parent = () =>{
     return(
         <div>
                 {/* <ChildA data={data} dbData={dbData}/> */}
-                <ChildA propValue={{dbData,user}}/>
-                <ChildB Display={Display}/>
+                {/* <ChildA propValue={{dbData,user}}/>
+                <ChildB Display={Display}/> */}
+                <h1>{state}</h1>
+                <ChildC setterFun={setState}/>
         </div>
 
     )
