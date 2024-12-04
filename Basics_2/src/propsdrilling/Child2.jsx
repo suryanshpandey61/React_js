@@ -1,7 +1,7 @@
 const Child2 = (y) => {
     // console.log(y.data);
-    let user1=y.data;
-    console.log(user1)
+    let user=y.data;
+    console.log(user)
     // let{name}=user1;
     // console.log(name);
     return (
