@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import NavbarCBC from "./components/NavbarCBC";
+import FlipkartNavbar from "./flipkartclone/FlipkartNavbar";
 import Profile from "./images/Profile";
 import Parent from "./props/Parent";
 import PropsDrillingParent from "./propsdrilling/PropsDrillingParent";
@@ -16,15 +17,16 @@ const App = () => {
             <NavbarCBC/> */}
             {/* <State/> */}
             
-            <h1>This is App Component</h1>
+            {/* <h1>This is App Component</h1> */}
 
             {/* <Counter/> */}
             {/* <StatesInCBC/> */}
             {/* <Parent/> */}
             {/* <PropsDrillingParent/> */}
-            <InlineCSS/>
+            {/* <InlineCSS/>
             <Footer/>
-            <Profile/>
+            <Profile/> */}
+            <FlipkartNavbar/>
         </div>
     )
 }
