@@ -6,6 +6,10 @@ const PropsDrillingParent = () => {
             id:1,
             name:"Mohan"
         },
+        {
+            id:2,
+            name:"Sohan"
+        }
         
     ]
 
