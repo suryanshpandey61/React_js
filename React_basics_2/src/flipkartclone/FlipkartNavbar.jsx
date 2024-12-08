@@ -29,7 +29,7 @@ const FlipkartNavbar = () => {
 
                 {/* login btn  */}
                 <div className='flex hover:bg-blue-400 px-5 py-4 gap-x-1 rounded-md hover:text-white hover:cursor-pointer'>
-                  <FaRegUserCircle />Login Btn <IoIosArrowDown />
+                  <FaRegUserCircle />Login  <IoIosArrowDown />
                 </div>
 
                 {/* cart btn  */}
