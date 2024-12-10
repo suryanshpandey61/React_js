@@ -34,7 +34,7 @@ const FlipkartNavbar = () => {
 
                 {/* cart btn  */}
                 <div className='flex hover:bg-green-400 px-5 py-4 gap-x-1 rounded-md hover:text-white hover:cursor-pointer'>
-                  <MdOutlineShoppingCart />Cart
+                  <MdOutlineShoppingCart />Carts
                 </div>
 
                 {/* become seller  */}
