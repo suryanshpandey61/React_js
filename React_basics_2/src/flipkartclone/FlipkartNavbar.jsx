@@ -39,7 +39,7 @@ const FlipkartNavbar = () => {
 
                 {/* become seller  */}
                 <div className='flex hover:bg-yellow-400 px-5 py-4 gap-x-1 rounded-md hover:text-white hover:cursor-pointer'>
-                <FaShop /> Become a Seller
+                <FaShop /> Become  Seller
                 </div>
 
                 {/* vertical 3 dot div  */}
